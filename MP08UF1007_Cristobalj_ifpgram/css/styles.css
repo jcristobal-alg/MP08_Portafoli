@@ -1,0 +1,133 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    height: 166px;
+    background-color: white;
+}
+
+nav{
+    height: 180px;
+    background-color: ;
+}
+
+article {
+    height: 2053px;
+}
+
+.contenidor {
+    width: 1716px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: ;
+    text-align: center;
+}
+
+.entrada {
+    width: 536px;
+    height: 620px;
+    margin: 18px;
+    float: left;
+    background-color: alicebue;
+}
+
+.img {
+    width: 536px;
+    height: 536px;
+}
+
+.reaccions {
+    height: 84px;
+    background-color: ;
+    margin-top: 10px;
+}
+
+.cercle {
+    width: 80px;
+    height: 80px;
+    background-color: maroon;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 28px;
+    padding: 10px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 10px maroon;
+    background-image: url(../img/profile.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    float: left;
+}
+
+.cercle:hover {
+    opacity: 100%;
+}
+
+.autor{
+    width: 268px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 22px
+}
+
+.moment{
+    width: 268px;
+    color: grey;
+    font-size: 20px;
+
+}
+
+.fotoautor{
+    width: 35px;
+    height: 35px;
+    background-color: maroon;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 10px maroon;
+    background-image: url(../img/profile.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    float: left;
+}
+
+.dreta{
+    width: 50%;
+    background-color: ;
+    float: right;
+}
+
+.esquerra {
+    width: 50%;
+    margin: 0;
+    background-color: ;
+    float: left;
+}
+
+.comentari{
+    height: 40px;
+    width: 180px;
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: ;
+    float: left;
+}
+
+.like{
+    height: 40px;
+    width: 40px;
+    background-color: ;
+    float: left;
+}
+
+.mes{
+    height: 40px;
+    width: 40px;
+    background-color: ;
+    float: left;
+    font-weight: 700;
+}

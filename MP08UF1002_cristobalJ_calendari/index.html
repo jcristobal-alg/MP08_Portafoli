@@ -1,0 +1,150 @@
+<html>
+    <head>
+        <style>
+            
+            body{
+                background-color: aliceblue;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                text-align: center;
+            }
+
+            .mp07:hover, .mp08:hover, .mp09:hover,.tut:hover {
+                    background-color: white;
+                    color: black;
+                }
+
+            h1{
+                
+            }
+
+            table{
+                color: white;
+                background-color: #f1c40f;
+                text-align: center;
+                width: 800px;
+                margin: auto;
+            }
+
+            th{
+                color: white;
+                background-color: black;
+                width: 1;
+            }
+
+            .mp07{
+                background-color: red;
+            }
+            .mp07:hover{
+                background-color: pink;
+            }
+
+            .mp09{
+                background-color: orange;
+            }
+
+            .mp09:hover{
+                background-color: peachpuff;
+            }
+            
+            .mp08{
+                background-color: yellow;
+            }
+
+            .mp08:hover{
+                background-color: yellowgreen;
+            }
+
+            .tut{
+                background-color: blue;
+            }
+
+            .tut:hover{
+                background-color: cyan;
+            }
+
+            .pati{
+                background-color: #f7dc6f;
+            }
+
+            .pati:hover{
+                background-color: violet;
+            }
+
+
+            /* Como combinar etiquetas*/
+
+                .mp07, .mp08, .mp09, .tut {
+                    color: black;
+                    background-color: white;
+                }
+
+
+
+        </style>
+
+    </head>
+
+    <body>
+        <h1>HORARIO</h1>
+        <table>
+            <tr>
+                <th>
+                <th>LUNES</td>
+                <th>MARTES</td>
+                <th>MIERCOLES</td>
+                <th>JUEVES</td>
+                <th>VIERNES</td>
+            </tr>
+            <tr>
+                <td>15:30 - 16:00</td>
+                <td rowspan="5" class="mp07">MP 07</td>
+                <td></td>
+                <td></td>
+                <td rowspan="5" class="mp07">MP 07</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>16:00 - 16:30</td>
+                <td rowspan="2" class="mp09">MP 09</td>
+                <td></td>
+                <td rowspan="4" class="mp08">MP 08</td>
+            </tr>
+            <tr>
+                <td>16:30 - 17:00</td>
+                <td rowspan="3" class="mp08">MP 08</td>
+            </tr>
+            <tr>
+                <td>17:00 - 17:30</td>
+                <td rowspan="2" class="tut">TUT</td>
+            </tr>
+            <tr>
+                <td>17:30 - 18:00</td>
+            </tr>
+            <tr>
+                <td>18:00 - 18:30</td>
+                <td colspan="5" class="pati">PATI</td>
+            </tr>
+            <tr>
+                <td>18:30 - 19:00</td>
+                <td rowspan="4" class="mp09">MP 09</td>
+                <td rowspan="4" class="mp09">MP 09</td>
+                <td rowspan="5" class="mp08">MP 08</td>
+                <td rowspan="4" class="mp08">MP 08</td>
+                <td rowspan="4" class="mp08">MP 08</td>
+            </tr>
+            <tr>
+                <td>19:00 - 19:30</td>
+            </tr>
+            <tr>
+                <td>19:30 - 20:00</td>
+            </tr>
+            <tr>
+                <td>20:00 - 20:30</td>
+            </tr>
+            <tr>
+                <td>20:30 - 21:00</td>
+            </tr>
+        </table>
+
+    </body>
+</html>

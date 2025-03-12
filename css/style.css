@@ -1,0 +1,635 @@
+
+
+
+@media screen and (min-width: 1280px) {
+nav{
+    height: 70px;
+    width: auto;
+    background-color: rd;
+    position: fixed;
+    
+}
+
+
+body{
+    background-color: rgb(53, 53, 53);
+}
+
+#naveg{
+    height: 70px;
+    width: auto;
+    background-color: re;
+    z-index: 1;
+    overflow: visible;
+    position: fixed;
+    ;
+}
+
+/*menu hamurguesa*/
+
+
+.burger {
+    background: rgb(31, 31, 31);
+    width: 5rem;
+    padding: 0;
+    position: absolute;
+    opacity: 1;
+    left: -7rem;
+    top: 5rem;
+    text-decoration: none;
+  }
+  
+  .burger li {
+    background: rgb(31, 31, 31);
+    height: 2rem;
+    margin: 30px 0;
+    display: block;
+    line-height: 2rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-decoration: none;
+    
+  }
+
+  
+  #p2 a {
+    color: black;
+  }
+  
+  b{
+    display: block;
+    width: 4rem;
+    height: 0.5rem;
+    background: whitesmoke;
+    margin: 0.5rem 0 0 0.5rem;
+    text-decoration: none;
+  }
+  
+  input[type=checkbox]{
+    visibility: hidden;
+  }
+  
+  #alternador {
+    width: 5rem;
+    height: 5rem;
+    background: yelow;
+    position: absolute;
+    top: 0.7rem;
+    left: 0.5rem;
+    text-decoration: none;
+  }
+  
+  #alternador label {
+    width: 4rem;
+    height: 4rem;
+    background: pik;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0.5rem;
+    transition: all .5s ease;
+    cursor: pointer;
+    opacity: 1;
+  }
+
+  label b{
+    color: white;
+  }
+  
+  #alternador input[type=checkbox]:checked+label {
+    opacity: 1;
+  }
+  
+  #alternador input[type=checkbox]:checked+label~.burger{
+    left: 0rem;
+  }
+  
+  
+
+/*menu hamurguesa*/
+
+
+
+.pprincipal{
+    height: 420px;
+    width: auto;
+    background-color: rgb(31, 31, 31);
+    padding-top: 1px;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: ;
+}
+
+#p2{
+    height: 795px;
+    width: auto;
+    background-color: rgb(110, 110, 110);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 80px;
+    border-radius: 13%;
+    overflow: hidden;
+}
+
+
+
+#boton:hover {
+    background: rgb(40, 40, 40);
+    color: ghostwhite;
+    scale: 100%;
+    transition: 1s;
+    animation: 1s rebotar linear 3;
+}
+
+@keyframes rebotar {
+    0%{
+        transform: translateY(0px);
+    }
+
+    25%{
+        transform: translateY(10px);
+    }
+
+    50%{
+        transform: translateY(0px);
+    }
+
+    75%{
+        transform: translateY(10px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+
+#pmarco{
+    color: black;
+    margin-top: -24px;
+    margin-left: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    
+}
+
+#titulo{
+    width: 285px;
+    height: 30px;
+    
+    margin-left: 4px;
+    border-radius: 5%;
+}
+
+#logo{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+
+    line-height: 0;
+    margin-top: -44.5px;
+    position: fixed;
+    margin:  auto;
+    left: 45%;
+    top: 43px;
+
+
+}
+
+
+
+#boton{
+    width: 413px;
+    height:220px;
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: -40px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 55%;
+    line-height: 230px;
+    font-size: 3rem;
+    overflow: hidden;
+}
+
+footer{
+    width: auto;
+    height: 100px;
+    background-color: black;
+    margin-top: 100px;
+}
+
+#p3{
+    height: 215px;
+    width: auto;
+    background-color: rgb(34, 158, 50);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    border-radius: 20%;
+    border: solid black 10px;
+    margin-bottom: 25px;
+}
+
+
+#footerr{
+    width: auto;
+    height: 70px;
+    background-color: black;
+}
+
+#rrr{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 25px;
+}
+
+span{
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 25ch;
+    background-color: d;
+    animation: typing 2s steps(24), blink .5s infinite step-end alternate;
+    overflow: hidden;
+    margin-top: 29px;
+    text-align: center;
+    margin-left: 44%;
+    top: 25px;
+    font-size: large;
+}
+
+@keyframes typing {
+    from { width: 0;}
+}
+
+@keyframes blink {
+    50% { border-color: transparent;
+    }
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+    #casilla{
+        width: 356px;
+        height: 190px;
+        background-color: white;
+        margin: 8px;
+        padding-top: -10px;
+        float: left;
+        overflow: ;
+        border-radius: 5%;
+    }
+    
+    #marco{
+        width: 346px;
+        height: 140px;
+        background-color: lightcoral;
+        margin-left: 4px;
+        margin-top: 5px;
+        border-radius: 5%;
+        overflow: hidden;
+    }
+    
+    #pmarco{
+        color: black;
+        margin-top: -24px;
+        margin-left: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        
+    }
+    
+    #titulo{
+        width: 285px;
+        height: 30px;
+        
+        margin-left: 4px;
+        border-radius: 5%;
+    }
+}
+
+    @media screen and (min-width: 470px){
+        nav{
+            height: 70px;
+            width: auto;
+            background-color: rd;
+            position: fixed;
+            
+        }
+        
+        
+        body{
+            background-color: rgb(53, 53, 53);
+        }
+        
+        #naveg{
+            height: 70px;
+            width: auto;
+            background-color: re;
+            z-index: 1;
+            overflow: visible;
+            position: fixed;
+            ;
+        }
+        
+        /*menu hamurguesa*/
+        
+        
+        .burger {
+            background: rgb(31, 31, 31);
+            width: 5rem;
+            padding: 0;
+            position: absolute;
+            opacity: 1;
+            left: -7rem;
+            top: 5rem;
+            text-decoration: none;
+          }
+          
+          .burger li {
+            background: rgb(31, 31, 31);
+            height: 2rem;
+            margin: 30px 0;
+            display: block;
+            line-height: 2rem;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: white;
+            text-decoration: none;
+            
+          }
+        
+          
+          #p2 a {
+            color: black;
+          }
+          
+          b{
+            display: block;
+            width: 4rem;
+            height: 0.5rem;
+            background: whitesmoke;
+            margin: 0.5rem 0 0 0.5rem;
+            text-decoration: none;
+          }
+          
+          input[type=checkbox]{
+            visibility: hidden;
+          }
+          
+          #alternador {
+            width: 5rem;
+            height: 5rem;
+            background: yelow;
+            position: absolute;
+            top: 0.7rem;
+            left: 0.5rem;
+            text-decoration: none;
+          }
+          
+          #alternador label {
+            width: 4rem;
+            height: 4rem;
+            background: pik;
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-radius: 0.5rem;
+            transition: all .5s ease;
+            cursor: pointer;
+            opacity: 1;
+          }
+        
+          label b{
+            color: white;
+          }
+          
+          #alternador input[type=checkbox]:checked+label {
+            opacity: 1;
+          }
+          
+          #alternador input[type=checkbox]:checked+label~.burger{
+            left: 0rem;
+          }
+          
+          
+        
+        /*menu hamurguesa*/
+        
+        
+        
+        .pprincipal{
+            height: 420px;
+            width: auto;
+            background-color: rgb(31, 31, 31);
+            padding-top: 1px;
+            overflow: hidden;
+            padding-top: 100px;
+            padding-bottom: ;
+        }
+        
+        #p2{
+            height: 795px;
+            width: auto;
+            background-color: rgb(110, 110, 110);
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 80px;
+            border-radius: 13%;
+            overflow: hidden;
+        }
+        
+        
+        
+        #boton:hover {
+            background: rgb(40, 40, 40);
+            color: ghostwhite;
+            scale: 100%;
+            transition: 1s;
+            animation: 1s rebotar linear 3;
+        }
+        
+        @keyframes rebotar {
+            0%{
+                transform: translateY(0px);
+            }
+        
+            25%{
+                transform: translateY(10px);
+            }
+        
+            50%{
+                transform: translateY(0px);
+            }
+        
+            75%{
+                transform: translateY(10px);
+            }
+        
+            100%{
+                transform: translateY(0px);
+            }
+        }
+        
+        #casilla{
+            width: 456px;
+            height: 190px;
+            margin: 8px;
+            padding-top: -10px;
+            float: left;
+            overflow: ;
+            border-radius: 5%;
+        }
+        
+        #marco{
+            width: 346px;
+            height: 140px;
+            background-color: lightcoral;
+            margin-left: 4px;
+            margin-top: 5px;
+            border-radius: 5%;
+            overflow: hidden;
+        }
+        
+        #pmarco{
+            color: black;
+            margin-top: -24px;
+            margin-left: 11px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: small;
+            
+        }
+        
+        #titulo{
+            width: 285px;
+            height: 30px;
+            
+            margin-left: 4px;
+            border-radius: 5%;
+        }
+        
+        #logo{
+            color: white;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 3rem;
+        
+            line-height: 0;
+            margin-top: -44.5px;
+            position: fixed;
+            margin:  auto;
+            left: 45%;
+            top: 43px;
+        
+        
+        }
+        
+        
+        
+        #boton{
+            width: 413px;
+            height:220px;
+            background-color: whitesmoke;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding-top: -40px;
+            float: left;
+            margin-left: 25px;
+            margin-top: 10px;
+            border-radius: 55%;
+            line-height: 230px;
+            font-size: 3rem;
+            overflow: hidden;
+        }
+        
+        footer{
+            width: auto;
+            height: 100px;
+            background-color: black;
+            margin-top: 100px;
+        }
+        
+        #p3{
+            height: 215px;
+            width: auto;
+            background-color: rgb(34, 158, 50);
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 50px;
+            border-radius: 20%;
+            border: solid black 10px;
+            margin-bottom: 25px;
+        }
+        
+        
+        #footerr{
+            width: auto;
+            height: 70px;
+            background-color: black;
+        }
+        
+        #rrr{
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            padding-top: 25px;
+        }
+        
+        span{
+            display: block;
+            font-family: monospace;
+            white-space: nowrap;
+            border-right: 4px solid;
+            width: 25ch;
+            background-color: d;
+            animation: typing 2s steps(24), blink .5s infinite step-end alternate;
+            overflow: hidden;
+            margin-top: 29px;
+            text-align: center;
+            margin-left: 44%;
+            top: 25px;
+            font-size: large;
+        }
+        
+        @keyframes typing {
+            from { width: 0;}
+        }
+        
+        @keyframes blink {
+            50% { border-color: transparent;
+            }
+        }
+        
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        
+        
+            
+            #pmarco{
+                color: black;
+                margin-top: -24px;
+                margin-left: 11px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: small;
+                
+            }
+            
+            #titulo{
+                width: 285px;
+                height: 30px;
+                
+                margin-left: 4px;
+                border-radius: 5%;
+            }
+    }
