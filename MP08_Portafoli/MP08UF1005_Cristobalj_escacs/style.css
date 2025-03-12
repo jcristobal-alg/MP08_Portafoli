@@ -1,0 +1,62 @@
+.taulell {
+    width: 800px;
+    height: 800px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: maroon;
+    box-shadow: 10px 10px 30px grey;
+}
+.contenidor {
+    height: 100px;
+    width: 800px;
+    background-color: transparent;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.casella {
+    width: 100px;
+    height: 100px;
+    background-color: ivory;
+    float: left;
+    background-image: linear-gradient(45deg, ivory, yellow);
+}
+
+.contenidor:nth-child(2n-1) .casella:nth-child(2n) {
+    background-color: black;
+    background-image: linear-gradient(45deg, grey, black);
+}
+
+.contenidor:nth-child(2n) .casella:nth-child(2n-1) {
+    background-color: black;
+    background-image: linear-gradient(45deg, grey, black);
+}
+
+.fitxa {
+    background-color: gray;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 10px;
+    box-shadow: inset 5px 5px 20px black, 1px 1px 1px grey;
+}
+
+.contenidor:nth-child(1) .fitxa, .contenidor:nth-child(2) .fitxa {
+    background-color: brown;
+}      
+
+.contenidor:nth-child(7) .fitxa, .contenidor:nth-child(8) .fitxa {
+    background-color: white;
+} 
+
+.contenidor:nth-child(1) .fitxa:hover, .contenidor:nth-child(2) .fitxa:hover {
+    position: relative;
+    top:100px;
+    transition: 1s;
+} 
+
+.contenidor:nth-child(7) .fitxa:hover, .contenidor:nth-child(8) .fitxa:hover {
+    position: relative;
+    top:-100px;
+    transition: 1s;
+}
